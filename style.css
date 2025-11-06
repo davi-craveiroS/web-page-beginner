@@ -177,36 +177,3 @@ footer li {
     height: 38px;
 
 }
-
-#button-nav {
-    background: none;
-    font-size: 36px;
-    border-radius: 3px;
-    cursor: pointer;
-    margin: 0px 5px 0px;
-}
-
-@keyframes animation-id {
-    0% {
-        font-size: 4rem;
-    }
-
-    50% {
-        font-size: 5rem
-    }
-
-    100% {
-        font-size: 2rem;
-    }
-}
-
-.nav-bar-left {
-    position: fixed;
-    display: grid;
-    background-color: #0E34A0;
-    top: 0%;
-    left: 0%;
-    height: 100%;
-    width: 42px;
-    z-index: 99;
-}
