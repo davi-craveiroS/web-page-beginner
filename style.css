@@ -1,0 +1,212 @@
+@charset 'utf-8';
+
+html * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-shadow: none;
+    border: none;
+    text-align: justify;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif, system-ui ;
+    font-weight: 460;
+    list-style-type: none;
+    color: #fff;
+    transition: all 0.2s ease;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    justify-items: center; 
+    
+}
+
+section {
+    display: grid;
+    text-align: justify;
+    padding: 2rem;
+    margin: auto;
+    width: 80%;
+    height: 1400px;
+}
+
+.content {
+    height: 300px;
+    border-radius: 1em;
+}
+
+nav {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-auto-flow: column;
+    padding: 2px;
+    width: 100%;
+    height: 38px;
+    background-color: #0E34A0;
+    z-index: 80;
+}
+
+.cont-nav {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-evenly;
+    width: 28em;
+    height: 1.8rem;
+    padding: 5px;
+}
+
+.ancorasNav {
+    text-decoration: none;
+    font-size: 1rem;
+    height: 20px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.ancorasNav:hover {
+    color: #ffe600;
+    transform: scale(1.2);
+}
+
+.ancorasNav:focus {
+    color: #ffe600;
+    transform: scale(1.2);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    padding: 5px;
+    gap: 32px;
+}
+
+@font-face {
+    font-family: Tallica-Medium ;
+    src: url('./tallica/Tallica-Medium.ttf');
+}
+
+@font-face {
+    font-family: Fonte Perso;
+    src: url('./santa_monday/Santa\ Monday.otf');
+}
+
+
+
+#tituloH1 {
+    font-family: Tallica-Medium;
+    letter-spacing: 2px;
+    margin: 62px 0px 62px;
+    font-size: 4rem;
+    height: 82px;
+}
+
+#tituloH2 {
+    margin: 100px 0px 32px;
+}
+
+.titulos {
+    display: flex;
+    justify-content: center;
+    font-family: Fonte Perso;
+    color: #ffffff;
+    letter-spacing: 4px;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 32px;
+    font-size: 3.4rem;
+    scroll-margin-block: 160px;
+}
+
+.botoes {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    height: 4rem;
+    border-radius: 1em;
+    font-size: 1.2rem;
+    background-color: #0059ff;
+    color: #ffffff;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.botoes:hover{
+    background-color: #007dd1;
+    transform: scale(1.1);
+    font-size: 1.2rem;
+}
+
+.button-container {
+    display: flex;
+    margin: 15px 0px 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    position: absolute;
+    top: 250%; 
+    left: 0%;
+    width: 100%;
+    font-size: 0.5rem;
+}
+
+footer li {
+    font-size: 0.8rem;
+}
+
+.element-nav {
+    display: flex;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    align-items: center;
+    justify-content: left;
+    padding: 5px;
+    width: 100px;
+    height: 38px;
+
+}
+
+#button-nav {
+    background: none;
+    font-size: 36px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 0px 5px 0px;
+}
+
+@keyframes animation-id {
+    0% {
+        font-size: 4rem;
+    }
+
+    50% {
+        font-size: 5rem
+    }
+
+    100% {
+        font-size: 2rem;
+    }
+}
+
+.nav-bar-left {
+    position: fixed;
+    display: grid;
+    background-color: #0E34A0;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 42px;
+    z-index: 99;
+}

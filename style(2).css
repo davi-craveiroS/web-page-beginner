@@ -1,0 +1,96 @@
+@charset 'utf-8';
+
+@font-face {
+    font-family: Tallica-Medium ;
+    src: url('./tallica/Tallica-Medium.ttf');
+}
+
+html * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-shadow: none;
+    border: none;
+    text-align: justify;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif, system-ui ;
+    font-weight: 460;
+    list-style-type: none;
+    color: #fff;
+    transition: all 0.2s ease;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    justify-items: center; 
+    
+}
+
+
+nav {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-auto-flow: column;
+    padding: 2px;
+    width: 100%;
+    height: 38px;
+    background-color: #0E34A0;
+    z-index: 99;
+}
+
+.cont-nav {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-evenly;
+    width: 28em;
+    height: 1.8rem;
+    padding: 5px;
+}
+
+.ancorasNav {
+    text-decoration: none;
+    font-size: 1rem;
+    height: 20px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.ancorasNav:hover {
+    color: #ffe600;
+    transform: scale(1.2);
+}
+
+.ancorasNav:focus {
+    color: #ffe600;
+    transform: scale(1.2);
+}
+
+
+.element-nav {
+    display: flex;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    align-items: center;
+    justify-content: left;
+    padding: 5px;
+    width: 100px;
+    height: 38px;
+
+}
+
+#button-nav {
+    background: none;
+    font-size: 36px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 0px 5px 0px;
+}
